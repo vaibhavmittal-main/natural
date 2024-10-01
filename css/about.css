@@ -27,7 +27,7 @@
     justify-content: space-between;
     gap: 20px;
     font-family: "Anton", sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -82,6 +82,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 50%;
+    /* border: 1px solid red; */
 }
 
 .about-features .feature {
@@ -92,10 +93,25 @@
     text-align: center;
     border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
+    height: 270px;
+    transition: 0.2s linear;
+    
+
     
 }
+
+.about-features .feature:hover{
+    height: 300px;
+    transition: 0.2s linear;
+    
+}
+
+
 .about-features .feature:nth-child(1){
     background-color: #ffaaa7;
 }
@@ -113,9 +129,9 @@
     margin-bottom: 10px;
     border-radius: 50%;
     /* background-color: white; */
-    width: 50%;
-    height: 55%;
-    margin-left: 25%;
+    width: 150px;
+    height: 150px;
+    /* margin-left: 25%; */
     margin-top: 0px;
 }
 .about-features .icon img{
@@ -134,10 +150,20 @@
     font-size: 16px;
     color: #666;
     font-family: roboto;
-
+    display: none;
+    transition: 0.2s linear;
+    position: relative;
+    top: 0px;
 }
 
-@media (max-width: 768px) {
+
+.about-features .feature:hover p{
+    display: block;
+    transition:  0.2s linear;
+    position: relative;
+}
+
+@media (max-width: 1000px) {
     .about-container {
         flex-direction: column;
     }
@@ -145,7 +171,13 @@
     .about-text, .about-features {
         flex: 1 1 100%;
         max-width: 100%;
+        /* border: 1px solid red; */
     }
+
+    .about-text h3{
+        text-align: center;
+    }
+
     .about-features {
         /* flex: 1 1 ; */
         display: grid;
@@ -158,9 +190,9 @@
         margin-bottom: 10px;
         border-radius: 50%;
         /* background-color: white; */
-        width: 50%;
-        height: 60%;
-        margin-left: 25%;
+        width: 180px;
+        height: 180px;
+        margin-left: 0%;
         margin-top: 0px;
     }
     .about-features .icon img{
@@ -179,7 +211,12 @@
         font-size: 14px;
         color: #666;
         font-family: roboto;
+        transition: 0.6s linear ;
+    }
     
+    .about-container h1{
+        font-size: 100px;
+        border: 1px solid red;
     }
 }
 

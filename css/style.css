@@ -1141,7 +1141,7 @@ body {
 
     .r1 {
         height: 100px;
-
+        display: none;
     }
 
     .banner-text {
@@ -1495,10 +1495,11 @@ body {
         /* border: 1px solid black; */
         width: 80%;
         margin: 10px;
+        /* text-align: center; */
     }
 
     .about-text h1 {
-        font-size: 24px;
+        font-size: 50px;
         font-weight: bold;
         margin-bottom: 10px;
         text-align: center;
@@ -1506,6 +1507,9 @@ body {
         letter-spacing: 3px;
         /* margin-left: -8px; */
         width: 100%;
+        /* border: 1px solid red; */
+        width: 100%;
+
     }
 
     .about .about-text h3 {
@@ -1522,7 +1526,12 @@ body {
         font-size: 16px;
         color: gray;
         text-align: center;
+        /* border: 1px solid blue; */
 
+    }
+
+    #responsiveness{
+        width: 100%;
     }
 
     .about .about-text button {
@@ -1556,7 +1565,6 @@ body {
         padding: 20px;
         border-radius: 50%;
     }
-
 }
 
 /* PRODUCT */

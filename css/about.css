@@ -27,6 +27,7 @@
     justify-content: space-between;
     gap: 20px;
     font-family: "Anton", sans-serif;
+    border: 1px solid red;
 
 }
 

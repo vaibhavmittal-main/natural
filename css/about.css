@@ -27,7 +27,7 @@
     justify-content: space-between;
     gap: 20px;
     font-family: "Anton", sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -82,6 +82,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 50%;
+    /* border: 1px solid red; */
 }
 
 .about-features .feature {

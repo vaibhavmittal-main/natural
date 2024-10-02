@@ -17,6 +17,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
+
 }
 
 
@@ -1695,6 +1697,7 @@ body {
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 50px 80px;
+    overflow-x: hidden;
 }
 
 .testleft {
@@ -1941,11 +1944,10 @@ body {
 
     .testright .carousel .carousel-cell {
         width: 100%;
-
-        height: 350px;
+        /* border: 1px solid red; */
+        height: 370px;
         border-radius: 20px;
-    }
-
+    }       
     .girlimg {
         width: 60%;
         border-radius: 50%;
@@ -1966,8 +1968,9 @@ body {
 
     .testimonialcard {
         width: 50%;
-        /* border: 1px solid red; */
+        /* border: 1px solid green; */
         padding: 20px;
+        height: 100%;
         border-radius: 10px;
         background-color: white;
         z-index: 10000;
@@ -2012,11 +2015,12 @@ body {
     }
 
     .clientimg {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         position: absolute;
-        right: 40px;
+        right: 10px;
+        bottom: 20px;
 
     }
 

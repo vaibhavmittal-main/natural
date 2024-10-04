@@ -3,6 +3,7 @@
     padding: 0;
 }
 .grid-div{
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: calc(86% - 20px);

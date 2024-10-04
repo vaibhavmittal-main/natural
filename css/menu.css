@@ -62,14 +62,32 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #333;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
     transition: 0.5s ease;
-    font-family:"Oswald", sans-serif;
+    font-family:"Roboto", sans-serif;
+    /* border: 1px solid red; */
+    position: relative;
 }
-ul a:hover {
+
+ul li a::before{
+    content: '';
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    background: #50A72C;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    transition: 0.2s linear;
+
+}
+ul a:hover::before{
+    transform: scaleX(1);
     text-decoration: none;
-    color: #FFBD3C;
+    /* color: #FFBD3C; */
+    width: 100%;
+    transform: 0.2s linear;
 }
 ul a:active{
     color: #FFBD3C;

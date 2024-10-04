@@ -2025,3 +2025,12 @@ body {
     }
 
 }
+
+.outerproductgrid{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    background: #F9F6EE;
+}
